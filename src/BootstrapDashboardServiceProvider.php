@@ -1,0 +1,28 @@
+<?php
+
+namespace Uspdev\BootstrapDashboard;
+
+use Illuminate\Support\ServiceProvider;
+
+class BootstrapDashboardServiceProvider extends ServiceProvider
+{
+    /**
+     * Bootstrap services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        //
+    }
+
+    /**
+     * Register services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        //
+    }
+}
