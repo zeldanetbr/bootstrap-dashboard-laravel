@@ -5,7 +5,7 @@ A Laravel package that implements bootstrap dashboard example.
 
 To install the package:
 
-    composer require uspdev/laravel-bootstrap-dashboard
+    composer require thiagogomesverissimo/laravel-bootstrap-dashboard
    
 Assets:
 
