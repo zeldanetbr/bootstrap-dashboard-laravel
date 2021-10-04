@@ -1,5 +1,5 @@
 {
-    "name": "uspdev/laravel-bootstrap-dashboard",
+    "name": "thiagogomesverissimo/laravel-bootstrap-dashboard",
     "version": "dev-master",
     "minimum-stability": "dev",
     "description": "bootstrap-dashboard integration with Laravel",
