@@ -6,14 +6,10 @@ A Laravel package that implements bootstrap dashboard example.
 To install the package:
 
     composer require thiagogomesverissimo/laravel-bootstrap-dashboard
-   
-Assets:
-
-    php artisan vendor:publish --provider="XXXXXXXXXX" --tag=assets
     
 Extends in your template:
 
-    @extends('XXXXX')
+    @extends('laravel-usp-theme::main')
 
 Sections available to override:
 
@@ -23,15 +19,13 @@ Sections available to override:
  - user
  - sidebar
  - body
- - javascripts (it is a good idea to use: {{ parent() }})
- - stylesheets (it is a good idea to use: *{{ parent() }}*)
 
 An example that can be inserted in your base.html.twig:
 
-    @extends('XXXXX')
+    @extends('laravel-usp-theme::main')
 
-    @section('title') Sistema @stop
-    @section('system_name') Sistema @stop
+    @section('title') Sistema @endsection
+    @section('system_name') Sistema @endsection
 
     @section('user')
         @auth
